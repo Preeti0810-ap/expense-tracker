@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Arial;
+  background: #0b0f17;
+  color: white;
+}
+
+.light {
+  background: #f5f7fb;
+  color: black;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+}
+
+.card {
+  background: #121826;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
+
+.light .card {
+  background: white;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+input, select {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #1e293b;
+  color: white;
+}
+
+.light input, .light select {
+  background: #eee;
+  color: black;
+}
+
+button {
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.addBtn {
+  background: #1db954;
+  color: white;
+}
+
+.deleteBtn {
+  background: #ff4d4d;
+  color: white;
+}
+
+.toggleBtn {
+  background: #3b82f6;
+  color: white;
+  float: right;
+}
+
+table {
+  width: 100%;
+  margin-top: 25px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 14px;
+  text-align: center;
+}
+
+thead {
+  background: #1f2937;
+}
+
+.light thead {
+  background: #ddd;
+}
+
+tbody tr {
+  background: #111827;
+}
+
+.light tbody tr {
+  background: #f0f0f0;
+}
